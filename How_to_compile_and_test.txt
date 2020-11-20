@@ -1,0 +1,15 @@
+Le parsing et evaluation du projet a été entierement ecrit en Java. Le projet est déjà était pré-compilé, donc vous pouvez directement lancer les tests. Si vous voulez, comme même, le recompiler alors Makefile est disponible dans repertoire courrant.
+
+Comment compiler:
+    make all       -->  pour compiler entierement la partie java, qui est indispensable pour effectuer les tests
+                        "prologTerm" et "eval"
+                        
+Comment tester:
+    ./prologTerm xxx.aps       --> script permettant affichage prologTerm d'un fichier xxx.aps qui se trouve dans 
+                                   repertoire courrant.
+    ./type xxx.aps             --> indiquant si la programme est bien typé. ok correspond au "correcte" et ko au
+                                   "incorrecte"
+    ./eval xxx.aps             --> pour evaluer la programme.
+    
+    ./test_all.sh              --> script, qui lance les trois scripts précedents pour chaque programme, se 
+                                   trouvant dans repertoire "Samples/".

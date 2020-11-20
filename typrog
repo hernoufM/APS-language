@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+java -cp bin PrologTermMain $1 | swipl -s prolog/judjement.pl -g main_stdin
